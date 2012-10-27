@@ -3,12 +3,6 @@
     "name": "Tabmark",
     "description": "TabBmark, BMarks manage, note, classify. ",
     "version": "0.1",
-    "app": { "launch": { "local_path": "window.html",  "width": 400,   "height": 500 } },//"container": "panel"
-
-//    "app": {
-//        "background": {
-//            "scripts": ["background.js"]
-//        }
-//    },
+    "app": { "launch": { "local_path": "window.html", "container": "tab" } },
     "icons": { "16": "icons/TabMark-16.png", "128": "icons/TabMark-128.png" }
 }
